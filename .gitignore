@@ -1,0 +1,12 @@
+# OSx
+.DS_Store
+
+# Dev/Build folders
+node_modules/
+
+# IDEs
+.idea/
+
+# meteor
+.meteor/local
+.meteor/meteorite
