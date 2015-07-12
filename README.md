@@ -1,4 +1,4 @@
-# Hence.io ES6 Watch
+# ES6 Watch
 
 For building ES6 libraries or Node modules which you need to have pre-compiled to es5 for consumption.
 
