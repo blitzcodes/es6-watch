@@ -18,7 +18,7 @@ var eslint = require('gulp-eslint');
 var path = require('path');
 var util = require('gulp-util');
 
-var sourceFiles = require('./.es6sources.json');
+var sourceFiles = require('./.es6src.json');
 var sourceDirectories = _.chain(sourceFiles).keys().map(function (dirname) {
   dirname = dirname + '**/*.js';
   return dirname; // load all the source paths, watch all js files, but only the root is comipled
